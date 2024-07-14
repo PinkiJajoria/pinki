@@ -98,7 +98,7 @@ color: aliceblue;
 @media screen and (width <= 1020px) {
      .container{
         flex-direction: column;
-        height: 100vh;
+        height: 100%;
         
     
     }
@@ -127,6 +127,7 @@ color: aliceblue;
     .right{
         display: grid;
         width: 100%;
+        height: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(7, 1fr);    
         padding: 30px;
